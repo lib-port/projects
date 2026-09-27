@@ -3,7 +3,11 @@
 set -euo pipefail
 
 usage() {
-  printf 'Usage: %s <issues.yaml>\n' "${0##*/}"
+  printf 'Usage: %s -r <repository> -f <issues.yaml>\n' "${0##*/}"
+  printf '\n'
+  printf 'Options:\n'
+  printf '  -r repository  Bare repository name owned by the active GitHub user.\n'
+  printf '  -f issues.yaml YAML file containing milestone and issue definitions.\n'
   printf '\n'
   printf 'YAML keys:\n'
   printf '  name               Milestone name (required).\n'
@@ -55,11 +59,51 @@ confirm() {
   done
 }
 
-(( $# == 1 )) || usage_error 'exactly one YAML file argument is required.'
+REPOSITORY_NAME=''
+YAML_FILE=''
+repository_option_seen=0
+file_option_seen=0
 
-YAML_FILE=$1
-[[ -n "$YAML_FILE" ]] || usage_error 'the YAML file location must not be empty.'
-readonly YAML_FILE
+OPTIND=1
+while getopts ':r:f:' option; do
+  case "$option" in
+    r)
+      (( repository_option_seen == 0 )) || \
+        usage_error "option -r must not be repeated."
+      [[ -n "$OPTARG" && "$OPTARG" != -* ]] || \
+        usage_error "option -r requires a repository value."
+      REPOSITORY_NAME=$OPTARG
+      repository_option_seen=1
+      ;;
+    f)
+      (( file_option_seen == 0 )) || \
+        usage_error "option -f must not be repeated."
+      [[ -n "$OPTARG" && "$OPTARG" != -* ]] || \
+        usage_error "option -f requires a YAML file value."
+      YAML_FILE=$OPTARG
+      file_option_seen=1
+      ;;
+    :)
+      usage_error "option -${OPTARG} requires a value."
+      ;;
+    \?)
+      usage_error "unknown option: -${OPTARG}."
+      ;;
+  esac
+done
+shift "$((OPTIND - 1))"
+
+(( $# == 0 )) || usage_error 'positional arguments are not accepted.'
+(( repository_option_seen == 1 )) || usage_error 'option -r is required.'
+(( file_option_seen == 1 )) || usage_error 'option -f is required.'
+
+[[ "$REPOSITORY_NAME" != */* ]] || \
+  usage_error 'option -r requires a bare repository name, without an owner.'
+[[ "$REPOSITORY_NAME" =~ ^[A-Za-z0-9._-]+$ ]] && \
+  [[ "$REPOSITORY_NAME" != '.' && "$REPOSITORY_NAME" != '..' ]] || \
+  usage_error 'option -r contains an invalid repository name.'
+
+readonly REPOSITORY_NAME YAML_FILE
 readonly RUN_LOCK_LABEL='course-issues-bulk-creator--run-lock'
 
 if ! command -v python3 >/dev/null 2>&1; then
@@ -386,13 +430,37 @@ if ! command -v gh >/dev/null 2>&1; then
   exit 1
 fi
 
-REPOSITORY=$(gh repo view --json nameWithOwner --jq '.nameWithOwner')
-readonly REPOSITORY
-
-if [[ -z "$REPOSITORY" ]]; then
-  printf 'Error: could not determine the current GitHub repository.\n' >&2
+if ! gh auth status --active --hostname github.com >/dev/null 2>&1; then
+  printf 'Error: an active GitHub CLI login for github.com is required.\n' >&2
+  printf "Run 'gh auth login' and then retry.\n" >&2
   exit 1
 fi
+
+ACTIVE_LOGIN=''
+if ! ACTIVE_LOGIN=$(gh api --hostname github.com user --jq '.login' 2>/dev/null) || \
+  [[ -z "$ACTIVE_LOGIN" || "$ACTIVE_LOGIN" == *$'\n'* || "$ACTIVE_LOGIN" == */* ]]; then
+  printf 'Error: could not determine the active GitHub user login.\n' >&2
+  printf "Run 'gh auth login' if the current authentication has expired.\n" >&2
+  exit 1
+fi
+readonly ACTIVE_LOGIN
+
+REQUESTED_REPOSITORY="${ACTIVE_LOGIN}/${REPOSITORY_NAME}"
+readonly REQUESTED_REPOSITORY
+resolved_repository=''
+if ! resolved_repository=$(gh api --hostname github.com \
+  -H 'Accept: application/vnd.github+json' \
+  "repos/${REQUESTED_REPOSITORY}" --jq '.full_name' 2>/dev/null) || \
+  [[ -z "$resolved_repository" ]] || \
+  [[ "${resolved_repository,,}" != "${REQUESTED_REPOSITORY,,}" ]]; then
+  printf "Error: repository '%s' is unavailable to the active GitHub user.\n" \
+    "$REQUESTED_REPOSITORY" >&2
+  exit 1
+fi
+REPOSITORY=$resolved_repository
+readonly REPOSITORY
+
+printf 'Target repository: %s\n' "$REPOSITORY"
 
 run_lock_acquired=0
 

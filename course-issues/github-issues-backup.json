@@ -1,7 +1,7 @@
 {
   "repository": "lib-port/tech-lib",
-  "exportedAt": "2026-09-11T06:11:54Z",
-  "issueCount": 131,
+  "exportedAt": "2026-09-27T09:12:54Z",
+  "issueCount": 105,
   "issues": [
     {
       "assignees": [],
@@ -998,7 +998,7 @@
         "name": ""
       },
       "body": "",
-      "closedAt": null,
+      "closedAt": "2026-09-13T10:10:38Z",
       "comments": [],
       "createdAt": "2026-08-23T22:24:24Z",
       "issueType": null,
@@ -1017,10 +1017,10 @@
         "dueOn": "2026-09-30T00:00:00Z"
       },
       "number": 33,
-      "state": "OPEN",
-      "stateReason": "",
+      "state": "CLOSED",
+      "stateReason": "COMPLETED",
       "title": "Introduction to Test and Behavior Driven Development Notes",
-      "updatedAt": "2026-08-23T22:24:24Z",
+      "updatedAt": "2026-09-13T10:10:38Z",
       "url": "https://github.com/lib-port/tech-lib/issues/33"
     },
     {
@@ -1032,7 +1032,7 @@
         "name": ""
       },
       "body": "",
-      "closedAt": null,
+      "closedAt": "2026-09-14T12:21:20Z",
       "comments": [],
       "createdAt": "2026-08-23T22:24:26Z",
       "issueType": null,
@@ -1051,10 +1051,10 @@
         "dueOn": "2026-09-30T00:00:00Z"
       },
       "number": 34,
-      "state": "OPEN",
-      "stateReason": "",
+      "state": "CLOSED",
+      "stateReason": "COMPLETED",
       "title": "Introduction to Test and Behavior Driven Development Final Project",
-      "updatedAt": "2026-08-23T22:24:26Z",
+      "updatedAt": "2026-09-14T12:21:20Z",
       "url": "https://github.com/lib-port/tech-lib/issues/34"
     },
     {
@@ -1066,7 +1066,7 @@
         "name": ""
       },
       "body": "",
-      "closedAt": null,
+      "closedAt": "2026-09-18T07:47:40Z",
       "comments": [],
       "createdAt": "2026-08-23T22:24:27Z",
       "issueType": null,
@@ -1085,10 +1085,10 @@
         "dueOn": "2026-09-30T00:00:00Z"
       },
       "number": 35,
-      "state": "OPEN",
-      "stateReason": "",
+      "state": "CLOSED",
+      "stateReason": "COMPLETED",
       "title": "Continuous Integration and Continuous Delivery (CI/CD) Notes",
-      "updatedAt": "2026-08-23T22:24:28Z",
+      "updatedAt": "2026-09-18T07:47:40Z",
       "url": "https://github.com/lib-port/tech-lib/issues/35"
     },
     {
@@ -1100,41 +1100,7 @@
         "name": ""
       },
       "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-23T22:24:29Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1FR6w",
-          "name": "platform-eng",
-          "description": "",
-          "color": "D93F0B"
-        }
-      ],
-      "milestone": {
-        "number": 2,
-        "title": "IBM DSE PC",
-        "description": "Notes and projects for the IBM DevOps and Software Engineering Professional Certificate.",
-        "dueOn": "2026-09-30T00:00:00Z"
-      },
-      "number": 36,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Continuous Integration and Continuous Delivery (CI/CD) Final Project",
-      "updatedAt": "2026-08-23T22:24:29Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/36"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
+      "closedAt": "2026-09-23T13:19:28Z",
       "comments": [],
       "createdAt": "2026-08-23T22:24:31Z",
       "issueType": null,
@@ -1153,113 +1119,11 @@
         "dueOn": "2026-09-30T00:00:00Z"
       },
       "number": 37,
-      "state": "OPEN",
-      "stateReason": "",
+      "state": "CLOSED",
+      "stateReason": "COMPLETED",
       "title": "Application Security for Developers and DevOps Professionals Notes",
-      "updatedAt": "2026-08-23T22:24:31Z",
+      "updatedAt": "2026-09-23T13:19:28Z",
       "url": "https://github.com/lib-port/tech-lib/issues/37"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-23T22:24:33Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1FR6w",
-          "name": "platform-eng",
-          "description": "",
-          "color": "D93F0B"
-        }
-      ],
-      "milestone": {
-        "number": 2,
-        "title": "IBM DSE PC",
-        "description": "Notes and projects for the IBM DevOps and Software Engineering Professional Certificate.",
-        "dueOn": "2026-09-30T00:00:00Z"
-      },
-      "number": 38,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Application Security for Developers and DevOps Professionals Final Project",
-      "updatedAt": "2026-08-23T22:24:33Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/38"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-23T22:24:34Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1FR6w",
-          "name": "platform-eng",
-          "description": "",
-          "color": "D93F0B"
-        }
-      ],
-      "milestone": {
-        "number": 2,
-        "title": "IBM DSE PC",
-        "description": "Notes and projects for the IBM DevOps and Software Engineering Professional Certificate.",
-        "dueOn": "2026-09-30T00:00:00Z"
-      },
-      "number": 39,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Monitoring and Observability for Development and DevOps Notes",
-      "updatedAt": "2026-08-23T22:24:34Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/39"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-23T22:24:36Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1FR6w",
-          "name": "platform-eng",
-          "description": "",
-          "color": "D93F0B"
-        }
-      ],
-      "milestone": {
-        "number": 2,
-        "title": "IBM DSE PC",
-        "description": "Notes and projects for the IBM DevOps and Software Engineering Professional Certificate.",
-        "dueOn": "2026-09-30T00:00:00Z"
-      },
-      "number": 40,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Monitoring and Observability for Development and DevOps Final Project",
-      "updatedAt": "2026-08-23T22:24:36Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/40"
     },
     {
       "assignees": [],
@@ -2204,652 +2068,6 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-08-24T08:18:50Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 69,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Develop Generative AI Applications: Get Started Notes",
-      "updatedAt": "2026-08-24T08:18:50Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/69"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:18:52Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 70,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Develop Generative AI Applications: Get Started Final Project",
-      "updatedAt": "2026-08-24T08:18:52Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/70"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:18:54Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 71,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Build RAG Applications: Get Started Notes",
-      "updatedAt": "2026-08-24T08:18:54Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/71"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:18:55Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 72,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Build RAG Applications: Get Started Final Project",
-      "updatedAt": "2026-08-24T08:18:55Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/72"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:18:57Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 73,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Vector Databases for RAG: An Introduction Notes",
-      "updatedAt": "2026-08-24T08:18:57Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/73"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:18:59Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 74,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Vector Databases for RAG: An Introduction Final Project",
-      "updatedAt": "2026-08-24T08:18:59Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/74"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:01Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 75,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Advanced RAG with Vector Databases and Retrievers Notes",
-      "updatedAt": "2026-08-24T08:19:01Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/75"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:03Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 76,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Advanced RAG with Vector Databases and Retrievers Final Project",
-      "updatedAt": "2026-08-24T08:19:03Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/76"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:05Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 77,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Build Multimodal Generative AI Applications Notes",
-      "updatedAt": "2026-08-24T08:19:05Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/77"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:07Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 78,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Build Multimodal Generative AI Applications Final Project",
-      "updatedAt": "2026-08-24T08:19:07Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/78"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:09Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 79,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Fundamentals of Building AI Agents Notes",
-      "updatedAt": "2026-08-24T08:19:09Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/79"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:11Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 80,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Fundamentals of Building AI Agents Final Project",
-      "updatedAt": "2026-08-24T08:19:11Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/80"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:13Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 81,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Agentic AI with LangChain and LangGraph Notes",
-      "updatedAt": "2026-08-24T08:19:13Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/81"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:16Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 82,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Agentic AI with LangChain and LangGraph Final Project",
-      "updatedAt": "2026-08-24T08:19:16Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/82"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:17Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 83,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI Notes",
-      "updatedAt": "2026-08-24T08:19:17Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/83"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:19Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 84,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI Final Project",
-      "updatedAt": "2026-08-24T08:19:20Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/84"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:22Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 85,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Build AI Agents using MCP Notes",
-      "updatedAt": "2026-08-24T08:19:22Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/85"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:23Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 86,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Build AI Agents using MCP Final Project",
-      "updatedAt": "2026-08-24T08:19:24Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/86"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-08-24T08:19:25Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
-          "name": "AI-eng",
-          "description": "",
-          "color": "0052CC"
-        }
-      ],
-      "milestone": {
-        "number": 5,
-        "title": "IBM RAI PC",
-        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
-        "dueOn": null
-      },
-      "number": 87,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "RAG and Agentic AI Capstone Project",
-      "updatedAt": "2026-08-24T08:19:25Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/87"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
       "createdAt": "2026-08-24T08:22:04Z",
       "issueType": null,
       "labels": [
@@ -2864,7 +2082,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 88,
       "state": "OPEN",
@@ -2898,7 +2116,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 89,
       "state": "OPEN",
@@ -2932,7 +2150,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 90,
       "state": "OPEN",
@@ -2966,7 +2184,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 91,
       "state": "OPEN",
@@ -3000,7 +2218,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 92,
       "state": "OPEN",
@@ -3034,7 +2252,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 93,
       "state": "OPEN",
@@ -3068,7 +2286,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 94,
       "state": "OPEN",
@@ -3102,7 +2320,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 95,
       "state": "OPEN",
@@ -3136,7 +2354,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 96,
       "state": "OPEN",
@@ -3170,7 +2388,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 97,
       "state": "OPEN",
@@ -3204,7 +2422,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 98,
       "state": "OPEN",
@@ -3238,7 +2456,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 99,
       "state": "OPEN",
@@ -3272,7 +2490,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 100,
       "state": "OPEN",
@@ -3306,7 +2524,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 101,
       "state": "OPEN",
@@ -3340,7 +2558,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 102,
       "state": "OPEN",
@@ -3374,7 +2592,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 103,
       "state": "OPEN",
@@ -3408,7 +2626,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 104,
       "state": "OPEN",
@@ -3442,7 +2660,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 105,
       "state": "OPEN",
@@ -3476,7 +2694,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 106,
       "state": "OPEN",
@@ -3510,7 +2728,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 107,
       "state": "OPEN",
@@ -3544,7 +2762,7 @@
         "number": 6,
         "title": "IBM SSA PC",
         "description": "Notes and projects for the IBM Systems and Solutions Architect Professional Certificate.",
-        "dueOn": "2027-09-30T00:00:00Z"
+        "dueOn": "2027-11-30T00:00:00Z"
       },
       "number": 108,
       "state": "OPEN",
@@ -3666,470 +2884,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-07T09:04:06Z",
+      "createdAt": "2026-09-18T06:57:28Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 112,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "The Product Owner Profession: Unleashing the Power of Scrum Notes",
-      "updatedAt": "2026-09-07T09:04:06Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/112"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:08Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 113,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "The Product Owner Profession: Unleashing the Power of Scrum Final Project",
-      "updatedAt": "2026-09-07T09:04:09Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/113"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:12Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 114,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Introduction to Agile Development and Scrum Notes",
-      "updatedAt": "2026-09-07T09:04:12Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/114"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:14Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 115,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Introduction to Agile Development and Scrum Final Project",
-      "updatedAt": "2026-09-07T09:04:15Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/115"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:18Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 116,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Product Owner: Communications & Stakeholder Management Notes",
-      "updatedAt": "2026-09-07T09:04:18Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/116"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:21Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 117,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Product Owner: Communications & Stakeholder Management Final Project",
-      "updatedAt": "2026-09-07T09:04:21Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/117"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:24Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 118,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Product Owner: Essential Skills and Tools for Innovation Notes",
-      "updatedAt": "2026-09-07T09:04:24Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/118"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:33Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 119,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Product Owner: Essential Skills and Tools for Innovation Final Project",
-      "updatedAt": "2026-09-07T09:04:33Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/119"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:36Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 120,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Generative AI: Introduction and Applications Notes",
-      "updatedAt": "2026-09-07T09:04:36Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/120"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:39Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 121,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Generative AI: Introduction and Applications Final Project",
-      "updatedAt": "2026-09-07T09:04:39Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/121"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:42Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 122,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Generative AI: Revolutionizing the Product Owner Role Notes",
-      "updatedAt": "2026-09-07T09:04:42Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/122"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:45Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 123,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Generative AI: Revolutionizing the Product Owner Role Final Project",
-      "updatedAt": "2026-09-07T09:04:45Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/123"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-07T09:04:48Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAAC0L82lg",
-          "name": "prod-man",
-          "description": "",
-          "color": "5319E7"
-        }
-      ],
-      "milestone": {
-        "number": 8,
-        "title": "IBM PO PC",
-        "description": "Notes and projects for the IBM Product Owner Professional Certificate.",
-        "dueOn": "2026-11-30T00:00:00Z"
-      },
-      "number": 124,
-      "state": "OPEN",
-      "stateReason": "",
-      "title": "Product Owner Capstone",
-      "updatedAt": "2026-09-07T09:04:48Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/124"
-    },
-    {
-      "assignees": [],
-      "author": {
-        "id": "U_kgDOEwukcQ",
-        "is_bot": false,
-        "login": "lib-port",
-        "name": ""
-      },
-      "body": "",
-      "closedAt": null,
-      "comments": [],
-      "createdAt": "2026-09-11T06:04:53Z",
-      "issueType": null,
-      "labels": [
-        {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 125,
+      "number": 149,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Introduction to Business Analyisis Notes",
-      "updatedAt": "2026-09-11T06:04:53Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/125"
+      "title": "Develop Generative AI Applications: Get Started Notes",
+      "updatedAt": "2026-09-18T06:57:28Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/149"
     },
     {
       "assignees": [],
@@ -4142,28 +2918,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:04:56Z",
+      "createdAt": "2026-09-18T06:57:31Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 126,
+      "number": 150,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Planning and Monitoring Notes",
-      "updatedAt": "2026-09-11T06:04:56Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/126"
+      "title": "Develop Generative AI Applications: Get Started Final Project",
+      "updatedAt": "2026-09-18T06:57:31Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/150"
     },
     {
       "assignees": [],
@@ -4176,28 +2952,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:04:58Z",
+      "createdAt": "2026-09-18T06:57:34Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 127,
+      "number": 151,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Elicitation and Collaboration Notes",
-      "updatedAt": "2026-09-11T06:04:58Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/127"
+      "title": "Build RAG Applications: Get Started Notes",
+      "updatedAt": "2026-09-18T06:57:35Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/151"
     },
     {
       "assignees": [],
@@ -4210,28 +2986,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:05:01Z",
+      "createdAt": "2026-09-18T06:57:37Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 128,
+      "number": 152,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Requirements and Designs Life Cycle Management Notes",
-      "updatedAt": "2026-09-11T06:05:01Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/128"
+      "title": "Build RAG Applications: Get Started Final Project",
+      "updatedAt": "2026-09-18T06:57:38Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/152"
     },
     {
       "assignees": [],
@@ -4244,28 +3020,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:05:04Z",
+      "createdAt": "2026-09-18T06:57:41Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 129,
+      "number": 153,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Strategy Analysis Notes",
-      "updatedAt": "2026-09-11T06:05:04Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/129"
+      "title": "Vector Databases for RAG: An Introduction Notes",
+      "updatedAt": "2026-09-18T06:57:41Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/153"
     },
     {
       "assignees": [],
@@ -4278,28 +3054,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:05:06Z",
+      "createdAt": "2026-09-18T06:57:44Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 130,
+      "number": 154,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Requirements Analysis and Design Definition (RADD) Notes",
-      "updatedAt": "2026-09-11T06:05:06Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/130"
+      "title": "Vector Databases for RAG: An Introduction Final Project",
+      "updatedAt": "2026-09-18T06:57:44Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/154"
     },
     {
       "assignees": [],
@@ -4312,28 +3088,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:05:09Z",
+      "createdAt": "2026-09-18T06:57:46Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 131,
+      "number": 155,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Solution Evaluation Notes",
-      "updatedAt": "2026-09-11T06:05:09Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/131"
+      "title": "Advanced RAG with Vector Databases and Retrievers Notes",
+      "updatedAt": "2026-09-18T06:57:47Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/155"
     },
     {
       "assignees": [],
@@ -4346,28 +3122,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:05:11Z",
+      "createdAt": "2026-09-18T06:57:50Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 132,
+      "number": 156,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Techniques Notes",
-      "updatedAt": "2026-09-11T06:05:11Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/132"
+      "title": "Advanced RAG with Vector Databases and Retrievers Final Project",
+      "updatedAt": "2026-09-18T06:57:50Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/156"
     },
     {
       "assignees": [],
@@ -4380,28 +3156,28 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:05:14Z",
+      "createdAt": "2026-09-18T06:57:53Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 133,
+      "number": 157,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Underlying Competencies Notes",
-      "updatedAt": "2026-09-11T06:05:14Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/133"
+      "title": "Build Multimodal Generative AI Applications Notes",
+      "updatedAt": "2026-09-18T06:57:53Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/157"
     },
     {
       "assignees": [],
@@ -4414,28 +3190,368 @@
       "body": "",
       "closedAt": null,
       "comments": [],
-      "createdAt": "2026-09-11T06:05:16Z",
+      "createdAt": "2026-09-18T06:57:56Z",
       "issueType": null,
       "labels": [
         {
-          "id": "LA_kwDOT_10hs8AAAACx1GTYg",
-          "name": "sys-arch",
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
           "description": "",
           "color": "0052CC"
         }
       ],
       "milestone": {
-        "number": 9,
-        "title": "Certified Business Analysis Professional (CBAP) Course",
-        "description": "",
-        "dueOn": "2026-10-31T00:00:00Z"
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
       },
-      "number": 134,
+      "number": 158,
       "state": "OPEN",
       "stateReason": "",
-      "title": "Perspectives Notes",
-      "updatedAt": "2026-09-11T06:05:16Z",
-      "url": "https://github.com/lib-port/tech-lib/issues/134"
+      "title": "Build Multimodal Generative AI Applications Final Project",
+      "updatedAt": "2026-09-18T06:57:56Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/158"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:57:59Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 159,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "Fundamentals of Building AI Agents Notes",
+      "updatedAt": "2026-09-18T06:57:59Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/159"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:58:02Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 160,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "Fundamentals of Building AI Agents Final Project",
+      "updatedAt": "2026-09-18T06:58:02Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/160"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:58:05Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 161,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "Agentic AI with LangChain and LangGraph Notes",
+      "updatedAt": "2026-09-18T06:58:05Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/161"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:58:08Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 162,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "Agentic AI with LangChain and LangGraph Final Project",
+      "updatedAt": "2026-09-18T06:58:08Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/162"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:58:11Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 163,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI Notes",
+      "updatedAt": "2026-09-18T06:58:11Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/163"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:58:14Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 164,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI Final Project",
+      "updatedAt": "2026-09-18T06:58:14Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/164"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:58:17Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 165,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "Build AI Agents using MCP Notes",
+      "updatedAt": "2026-09-18T06:58:17Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/165"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:58:20Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 166,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "Build AI Agents using MCP Final Project",
+      "updatedAt": "2026-09-18T06:58:20Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/166"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": null,
+      "comments": [],
+      "createdAt": "2026-09-18T06:58:23Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1Eghw",
+          "name": "AI-eng",
+          "description": "",
+          "color": "0052CC"
+        }
+      ],
+      "milestone": {
+        "number": 5,
+        "title": "IBM RAA PC",
+        "description": "Notes and projects for the IBM RAG and Agentic AI Professional Certificate.",
+        "dueOn": "2027-08-31T00:00:00Z"
+      },
+      "number": 167,
+      "state": "OPEN",
+      "stateReason": "",
+      "title": "RAG and Agentic AI Capstone Project",
+      "updatedAt": "2026-09-18T06:58:23Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/167"
+    },
+    {
+      "assignees": [],
+      "author": {
+        "id": "U_kgDOEwukcQ",
+        "is_bot": false,
+        "login": "lib-port",
+        "name": ""
+      },
+      "body": "",
+      "closedAt": "2026-09-25T07:24:14Z",
+      "comments": [],
+      "createdAt": "2026-09-25T07:24:10Z",
+      "issueType": null,
+      "labels": [
+        {
+          "id": "LA_kwDOT_10hs8AAAACx1FR6w",
+          "name": "platform-eng",
+          "description": "",
+          "color": "D93F0B"
+        }
+      ],
+      "milestone": {
+        "number": 2,
+        "title": "IBM DSE PC",
+        "description": "Notes and projects for the IBM DevOps and Software Engineering Professional Certificate.",
+        "dueOn": "2026-09-30T00:00:00Z"
+      },
+      "number": 168,
+      "state": "CLOSED",
+      "stateReason": "COMPLETED",
+      "title": "Monitoring and Observability for Development and DevOps Notes",
+      "updatedAt": "2026-09-25T07:24:14Z",
+      "url": "https://github.com/lib-port/tech-lib/issues/168"
     }
   ]
 }

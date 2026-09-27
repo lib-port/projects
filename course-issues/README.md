@@ -3,14 +3,16 @@
 `course-issues-bulk-creator.sh` creates or reuses a GitHub milestone and then
 creates milestone-linked issues from a validated YAML file. The YAML file
 defines the milestone name, issue label, optional due date, and issue titles.
-The script creates or reuses the label, supports interactive safeguards for
-existing milestones, and performs repository-wide duplicate detection.
+The command selects a repository owned by the active GitHub CLI user, creates
+or reuses the label, supports interactive safeguards for existing milestones,
+and performs repository-wide duplicate detection.
 
 ## Features
 
 - Defines milestone settings and issue titles in YAML.
 - Creates different title patterns from `notes-and-project`, `notes-only`, and
   `project-only` lists.
+- Selects a repository by bare name from the active GitHub CLI user's account.
 - Creates a missing repository label or reuses an existing label without
   changing its metadata, then applies it to every newly created issue.
 - Creates a missing milestone and optionally assigns a due date.
@@ -27,9 +29,9 @@ existing milestones, and performs repository-wide duplicate detection.
 - Python 3.7 or newer
 - [PyYAML](https://pyyaml.org/wiki/PyYAMLDocumentation)
 - [GitHub CLI](https://cli.github.com/) (`gh`)
-- A GitHub account or token with access to the target repository and permission
-  to read and create milestones, labels, and issues. A fine-grained token
-  should have **Issues: Read and write** permission.
+- An active GitHub CLI login for `github.com`, with access to the target
+  repository and permission to read and create milestones, labels, and issues.
+  A fine-grained token should have **Issues: Read and write** permission.
 
 The target repository must have GitHub Issues enabled.
 
@@ -56,8 +58,14 @@ gh auth login
 gh auth status
 ```
 
-Run the script from the target repository. The repository is resolved through
-`gh repo view` using the current Git repository context.
+The script checks for an active login but never starts authentication. If the
+check fails, run `gh auth login` yourself and retry the command.
+
+The script may be run from any working directory. It obtains the active user's
+login through an authenticated GitHub API call, combines it with the bare
+repository name supplied to `-r`, and confirms that the resulting repository
+is accessible before making any GitHub changes. It does not infer a repository
+from the current directory.
 
 ## YAML input
 
@@ -134,16 +142,25 @@ script from creating or updating a milestone without creating any issues.
 ## Usage
 
 ```text
-course-issues-bulk-creator.sh <issues.yaml>
+course-issues-bulk-creator.sh -r <repository> -f <issues.yaml>
 ```
 
-The command accepts exactly one positional argument: the location of the YAML
-input file containing the milestone, label, and issue definitions. It has no
-command-line options, including no help option.
+Both options are required and may be supplied in either order. `-r` accepts a
+bare repository name, such as `tech-lib`; an owner-qualified value such as
+`lib-port/tech-lib` is rejected. The owner is always the active GitHub CLI
+user. `-f` accepts the location of the YAML input file containing the
+milestone, label, and issue definitions.
 
 ```bash
-./course-issues-bulk-creator.sh "./issues.yaml"
+./course-issues-bulk-creator.sh -r tech-lib -f course.yml
+./course-issues-bulk-creator.sh -f course.yml -r tech-lib
 ```
+
+There are no default values or long-form options. Unknown or repeated options,
+missing option values, omitted required options, owner-qualified repository
+values, and positional arguments are usage errors. Repository access and
+authentication failures are runtime errors. The repository availability check
+is read-only and occurs before the temporary run-lock label or any other write.
 
 The script sends a non-null YAML due date to GitHub as the end of that UTC day,
 for example `2026-12-31T23:59:59Z`.
@@ -152,8 +169,8 @@ for example `2026-12-31T23:59:59Z`.
 
 Repository label matching is case-insensitive. If the requested label exists,
 the script uses the existing label's canonical name without changing its
-color or description. If it does not exist, the script creates it with an
-empty description and lets `gh` choose a random color.
+colour or description. If it does not exist, the script creates it with an
+empty description and lets `gh` choose a random colour.
 
 The label is resolved after milestone safeguards and confirmation prompts but
 before permanent milestone or issue changes. A successful run ensures the
@@ -213,7 +230,7 @@ remove the stale label before retrying:
 
 ```bash
 gh api --method DELETE \
-  "repos/{owner}/{repo}/labels/course-issues-bulk-creator--run-lock"
+  "repos/<active-user>/<repository>/labels/course-issues-bulk-creator--run-lock"
 ```
 
 ## Output and exit status
@@ -225,7 +242,7 @@ and a final count. Prompts, warnings, and errors are written to standard error.
 | ---: | --- |
 | `0` | The run completed, including runs that created zero issues or skipped every proposed issue. |
 | `1` | A script-detected validation or runtime failure, a closed milestone, or a declined existing-milestone prompt. |
-| `2` | Invalid command-line usage: zero or multiple arguments, or an empty YAML file path. |
+| `2` | Invalid command-line usage, including missing, repeated, or unknown options; missing values; owner-qualified repository values; and positional arguments. |
 | Other non-zero value | A failing external command may propagate its own status. |
 
 ## Failure and retry considerations
@@ -247,8 +264,7 @@ detection will skip issues that were already created. Creating many issues
 quickly may also encounter GitHub primary or secondary rate limits.
 
 Issue bodies are intentionally empty. The script does not currently provide a
-dry-run mode, a non-interactive confirmation override, or a way to select a
-repository explicitly.
+dry-run mode or a non-interactive confirmation override.
 
 ## Troubleshooting
 
@@ -269,17 +285,22 @@ Check the active account and token permissions:
 gh auth status
 ```
 
-If necessary, authenticate again with [`gh auth login`](https://cli.github.com/manual/gh_auth_login).
+If necessary, authenticate again with
+[`gh auth login`](https://cli.github.com/manual/gh_auth_login). The script only
+reports this command; it never invokes it.
 
-### The repository cannot be determined
+### The repository is unavailable
 
-Change into the target repository before running the script, then confirm that
-GitHub CLI can resolve it:
+Confirm the active login, then check that the repository exists in that user's
+account and that the login can access it:
 
 ```bash
-cd /path/to/repository
-gh repo view
+gh auth status --active --hostname github.com
+login=$(gh api --hostname github.com user --jq '.login')
+gh repo view "$login/tech-lib"
 ```
+
+Supply only `tech-lib` to `-r`; do not include the login or another owner.
 
 ### A YAML item is reported as a non-string
 
